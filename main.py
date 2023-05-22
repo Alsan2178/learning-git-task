@@ -1,3 +1,15 @@
 zakupy={'piekarnia':['chleb','bułki','pączek'],'warzywniak':['marchew','seler','rukola']}
+suma=0
+z=0
+rzeczy=[]
+print(zakupy.get('piekarnia'))
 for i in zakupy:
-    print(f"Idę do {i}, kupuję tu następujące rzeczy {zakupy[i]}")
+    rzeczy=zakupy[i]
+    for j in rzeczy:
+        rzeczy[z]=j.capitalize()
+        z=z+1
+    zakupy[i]=rzeczy
+    z=0
+    print(f"Idę do {i.capitalize()}, kupuję tu następujące rzeczy {zakupy[i]}")
+    suma=suma+len(zakupy[i])
+print(f"W sumie kupuję {suma} sześć produktów")
