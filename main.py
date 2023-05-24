@@ -2,6 +2,8 @@ zakupy={'piekarnia':['chleb','bułki','pączek'],'warzywniak':['marchew','seler'
 suma=0
 z=0
 rzeczy=[]
+zakupy['piekarnia'].append('drożdżówka')
+zakupy['warzywniak'].append('kapusta')
 print(zakupy.get('piekarnia'))
 for i in zakupy:
     rzeczy=zakupy[i]
