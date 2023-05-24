@@ -4,6 +4,7 @@ z=0
 rzeczy=[]
 zakupy['piekarnia'].append('drożdżówka')
 zakupy['warzywniak'].append('kapusta')
+zakupy['drogeria']=['szampon','pasta do zębów','żel pod prysznic']
 print(zakupy.get('piekarnia'))
 for i in zakupy:
     rzeczy=zakupy[i]
