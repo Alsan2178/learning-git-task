@@ -15,4 +15,5 @@ for i in zakupy:
     z=0
     print(f"Idę do {i.capitalize()}, kupuję tu następujące rzeczy {zakupy[i]}")
     suma=suma+len(zakupy[i])
-print(f"W sumie kupuję {suma} sześć produktów")
+print(f"W sumie kupuję {suma} sześć produktów \n")
+print('Pozdrowienia ze słonecznej Bydgoszczy :) \n')
